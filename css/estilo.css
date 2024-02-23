@@ -1,0 +1,70 @@
+body{
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.logotipo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.carouselModi{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imgInfo{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.info{
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.8)
+    );
+}
+
+.svgSpoty{
+    color: white;
+}
+.svgSpoty:hover{
+    color: green;
+}
+.svgYoutube{
+    color: white;
+}
+.svgYoutube:hover{
+    color: red;
+}
+
+.Video{
+    border-radius: 30px;
+}
+
+hr {
+    border: 5; 
+    height: 2px; 
+    text-align: center;
+    background-image: linear-gradient(left, #fff, #000, #fff);
+}
+.beatportLogo{
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.beatportIcon {
+    width: 35px;
+    cursor: pointer;
+}
+.TituloCancion{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.imgCatalogo{
+    cursor: pointer;
+    border-radius: 20px;
+}

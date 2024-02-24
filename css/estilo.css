@@ -68,11 +68,16 @@ text-align: center;
     border: none;
     border-radius: 10px;
     background-color: transparent;
+    
 }
 
 .beatportIcon {
     width: 35px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.beatportIcon:hover{
+    transform: scale(1.1);
 }
 .TituloCancion{
     color: #000;
@@ -97,8 +102,17 @@ text-align: center;
 }
 
 .imgContacto{
-    filter: drop-shadow(0 0 10px rgba(0,0,0,.8)
-    );
+filter: drop-shadow(0 0 10px rgba(0,0,0,.8));
+animation: float 2s linear infinite;
+cursor: pointer;
+}
+@keyframes float {
+    0%, 100% {
+    transform: translateY(1rem);
+    }
+    50% {
+    transform: translateY(-0.1rem);
+    }
 }
 
 .allReleases{
